@@ -1,4 +1,5 @@
-a = 3
-b = 4
-c = a+b
-print(c)
+print("what is your first number")
+inpnum1=input()
+print("what is your second number")
+inpnum2=input()
+print(int(inpnum1)+Int(inpnum2))

@@ -1,0 +1,4 @@
+from urllib.request import AbstractDigestAuthHandler
+
+
+AbstractDigestAuthHandler

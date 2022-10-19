@@ -1,8 +1,14 @@
-colors = ['red', 'green', 'blue', 'orange']
+mystrg = "Akriti is a good girl"
+print (mystrg[0:18])
+print(len(mystrg))
+print(mystrg[0:])
+print(mystrg[0:5:2])
+print(mystrg[::2])
+print(mystrg[2::])
 
-# extract data
-print(colors[1:3])
-
-# assign data
-colors[1:3] = ['pink', 'black']
-print(colors)
+#negative indexes
+print(mystrg[-4:-2])
+print(mystrg[17:19])
+print(mystrg.isalpha())
+print(mystrg.endswith("girl"))
+print(mystrg.count("i"))

@@ -1,0 +1,30 @@
+"""def my_function(n):
+    s = 0
+    q = 0
+    n = int(n)
+    for n in range(0, n+1):
+        if n % 2 != 0:
+            s = s + n
+        else:
+            q = q + n
+    print(f"total even values = {q}")
+    print(f"total odd values = {s}")
+
+n = input(" Enter value : ")
+print(n)
+print(type(n))
+my_function(n)"""
+
+def my_function(n):
+   list1 = []
+   list2 = []
+   #dict = {'odd:list1, even:list2'}
+   for i in range(0, n+1):
+    if i % 2 != 0:
+        list1.append(i)
+    else:
+        list2.append(i)
+   print(list1,list2)
+
+n = int(input(" Enter value : "))
+my_function(n)
